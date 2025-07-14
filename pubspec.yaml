@@ -30,6 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  stacked:
+  get_it:
+  flutter_screenutil:
+  google_fonts:
+  overlay_support:
+  word_colorizer: ^0.1.0
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
