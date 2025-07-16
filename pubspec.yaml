@@ -35,7 +35,7 @@ dependencies:
   flutter_screenutil:
   google_fonts:
   overlay_support:
-  word_colorizer: ^0.1.0
+  word_colorizer: ^0.2.0
 
 
   # The following adds the Cupertino Icons font to your application.

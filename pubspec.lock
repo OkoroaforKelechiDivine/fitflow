@@ -396,10 +396,10 @@ packages:
     dependency: "direct main"
     description:
       name: word_colorizer
-      sha256: "87be4bf7d9b7108bd08ad66a48c20d1c0add7d5ef4c3e7075022003735402c19"
+      sha256: "43a335fef42f338826f5e4190d574fed24676635e383cc1dbe6f16d1f966dee3"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   xdg_directories:
     dependency: transitive
     description:

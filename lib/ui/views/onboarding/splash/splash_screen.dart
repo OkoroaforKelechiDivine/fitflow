@@ -1,6 +1,7 @@
 import 'package:fitflow/core/constants/app_colors.dart';
 import 'package:fitflow/ui/views/onboarding/splash/splash_screen_viewmodel.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stacked/stacked.dart';
 import 'package:word_colorizer/word_colorizer.dart';
 
@@ -25,10 +26,12 @@ class SplashScreen extends StatelessWidget {
                   text: "FitFlow.",
                   defaultColor: AppColors.white,
                   highlightWordsWithColors: {
-                    "Flow" : AppColors.yellow,
-                    "." : AppColors.yellow
+                    "Fit": AppColors.yellow,
+                    ".": AppColors.yellow
                   },
-                  fontFamily: 'Google.Cousine',
+                  fontFamily: 'Google.Nunito',
+                  fontWeight: FontWeight.w700,
+                  fontSize: 48.sp,
                 ),
               ],
             ),

@@ -5,7 +5,7 @@ import 'package:stacked/stacked.dart';
 
 class SplashScreenViewModel extends BaseViewModel {
   Future<void> initializeSplashScreen() async {
-    await Future.delayed(const Duration(seconds: 10));
+    await Future.delayed(const Duration(seconds: 30));
     navigationService.pushReplacement(const Text(""));
   }
 }
