@@ -17,6 +17,7 @@ class SplashScreen extends StatelessWidget {
       viewModelBuilder: () => SplashScreenViewModel(),
       builder: (context, model, _) {
         return Scaffold(
+          backgroundColor: AppColors.deepBlack,
           body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -31,7 +32,7 @@ class SplashScreen extends StatelessWidget {
                   },
                   fontFamily: 'Google.Nunito',
                   fontWeight: FontWeight.w700,
-                  fontSize: 48.sp,
+                  fontSize: 40.sp,
                 ),
               ],
             ),
