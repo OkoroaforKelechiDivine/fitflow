@@ -1,8 +1,8 @@
 import 'package:fitflow/core/constants/app_colors.dart';
 import 'package:fitflow/core/constants/app_themes.dart';
 import 'package:fitflow/core/network/service_locator.dart';
-import 'package:fitflow/ui/views/onboarding/intro/get_started.dart';
-// import 'package:fitflow/ui/views/onboarding/splash/splash_screen.dart';
+import 'package:fitflow/ui/views/auth/signup/signup.dart';
+import 'package:fitflow/ui/views/onboarding/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:overlay_support/overlay_support.dart';
@@ -32,9 +32,9 @@ class _MyAppState extends State<MyApp> {
               title: 'Figorate',
               debugShowCheckedModeBanner: false,
               theme: fitflowTheme,
-              home: const GetStartedScreen(),
+              home: const SplashScreen(),
               routes: {
-                // "/get-started" : (context) => const GetStartedScreen(),
+                "/sign-up" : (context) => const SignUpScreen(),
               }
             ),
           );

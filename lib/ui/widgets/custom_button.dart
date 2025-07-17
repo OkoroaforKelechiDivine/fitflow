@@ -61,6 +61,7 @@ class CustomGestureButton extends StatelessWidget {
               color: finalTextColor,
               fontSize: fontSize ?? 12.sp,
               fontWeight: FontWeight.bold,
+              isCenterAligned: true,
               // type: fontType,
               // overflow: TextOverflow.visible,
             ),

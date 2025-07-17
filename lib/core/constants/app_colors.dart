@@ -24,6 +24,7 @@ class AppColors {
   static const Color normalBlack = Color(0xFF262626);
   static const Color yellow = Color(0xFFFF9900);
   static const Color grey = Color(0xFF999999);
+  static Color borderGrey = ColorExtensions.fromHex("border: 1px solid #DFDFDF");
   static const Color white = Color(0xFFFFFFFF);
   static const Color fadedWhite = Color(0xFF8A8A8A);
 
